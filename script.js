@@ -7,8 +7,8 @@ var resultCoffee = amount * ratio
 var resultWater = amount / ratio
 function coffeeRatio() {
     if (material == "coffee") {
-        document.getElementById("result").innerHTML = resultCoffee;
+        document.getElementById("result").innerHTML = "Put " + resultCoffee + " ml of water";
     } else {
-        document.getElementById("result").innerHTML = resultWater;
+        document.getElementById("result").innerHTML = "Put " + resultWater + "gr of coffee";
     }
 }
