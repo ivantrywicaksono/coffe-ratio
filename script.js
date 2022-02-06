@@ -1,11 +1,11 @@
-var r = document.getElementById("coffeeRatio")
-var ratio = r.options[r.selectedIndex].value
-var m = document.getElementById("material")
-var material = m.options[m.selectedIndex].value
-var amount = document.getElementById("amount").value
-var resultCoffee = amount * ratio
-var resultWater = amount / ratio
 function coffeeRatio() {
+    let r = document.getElementById("coffeeRatio")
+    let ratio = r.options[r.selectedIndex].value
+    let m = document.getElementById("material")
+    let material = m.options[m.selectedIndex].value
+    let amount = document.getElementById("amount").value
+    let resultCoffee = amount * ratio
+    let resultWater = amount / ratio
     if (material == "coffee") {
         document.getElementById("result").innerHTML = "Put " + resultCoffee + " ml of water";
     } else {
