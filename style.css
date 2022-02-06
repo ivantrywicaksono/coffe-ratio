@@ -1,0 +1,11 @@
+body {
+    background-color: burlywood;
+    color: rgb(102, 59, 3);
+}
+body h1 {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    background-color: rgb(51, 30, 3);
+    color: burlywood;
+}
