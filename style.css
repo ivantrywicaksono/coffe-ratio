@@ -1,25 +1,26 @@
+/*rgb(251, 251, 251); rgb(234, 220, 166)
+; rgb(226, 194, 117); rgb(195, 106, 45);*/
+/*#C36A2D; #E2C275; #EADCA6; #FBFBFB*/
 * {
   margin: 0px;
   padding: 0px;
-  background-color: #404247;
 }
 input, select {
   background-color: beige;
   border-radius: 25px;
   padding: 4px;
   width: 98px;
+  text-align: center;
 }
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #24252A;
-}
-h1 {
-  background-color: #24252A;
+  background-color: #C36A2D;
+  color: #492004;
 }
 button {
-  background-color: chocolate;
+  background-color: #C36A2D;
   padding: 4px 10px;
   border: none;
   border-radius: 25px;
