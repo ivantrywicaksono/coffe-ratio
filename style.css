@@ -1,13 +1,56 @@
 * {
   margin: 0px;
   padding: 0px;
+  background-color: #404247;
+}
+input, select {
+  background-color: beige;
+  border-radius: 25px;
+  padding: 4px;
+  width: 98px;
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  background-color: #24252A;
+}
+h1 {
+  background-color: #24252A;
+}
+button {
+  background-color: chocolate;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 25px;
+  font-family: monospace;
 }
 h3 {
+  margin-top: 10px;
+  display: flex;
   justify-content: center;
 }
-.cwratio
+.cwratio {
+  display: flex;
+  background-color: lightgray;
+  justify-content: center;
+}
+.inputAmount {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.resultSpace {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+button:hover {
+  background-color: rgb(37, 151, 37);
+}
