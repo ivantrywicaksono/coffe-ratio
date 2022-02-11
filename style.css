@@ -1,6 +1,7 @@
 /*rgb(251, 251, 251); rgb(234, 220, 166)
 ; rgb(226, 194, 117); rgb(195, 106, 45);*/
 /*#C36A2D; #E2C275; #EADCA6; #FBFBFB*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -8,6 +9,9 @@
 }
 body {
   background-color: #C8A27C;
+}
+button:hover {
+  background-color: rgba(37, 151, 37, 0.8);
 }
 input, select {
   background-color: #ebc8a5;
@@ -25,19 +29,20 @@ header {
   align-items: center;
   color: #151618;
   background-color: #974928;
+  font-weight: 900;
 }
 button {
   background-color: #C36A2D;
   padding: 4px 10px;
   border: none;
   border-radius: 25px;
-  font-family: monospace;
+  font-family: Montserrat;
 }
 h3 {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  font-weight: 600;
+  font-weight: 700;
 }
 .cwratio {
   display: flex;
@@ -59,7 +64,4 @@ h3 {
   display: flex;
   margin-top: 10px;
   justify-content: center;
-}
-button:hover {
-  background-color: rgb(37, 151, 37);
 }
