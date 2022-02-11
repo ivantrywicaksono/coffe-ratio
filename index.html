@@ -10,8 +10,8 @@
     <header>
         <h1>Coffee Ratio</h1>
     </header>
-        <form class="cwratio">
-        <h3>Select Coffee Ratio</h3>
+    <h3>Select Coffee Ratio</h3>
+    <form class="cwratio">
         <div id="ratiodata">
             <label for="coffeeRatio">Coffee:Water (g:ml) =  </label>
             <select name="coffeeRatio" id="coffeeRatio">
@@ -23,11 +23,11 @@
                 <option value="18">1:18</option>
             </select>
         </div>
-        </form>
+    </form>
         <br>
-    <div class="amountInput">
+    <form class="amountInput">
         <div id="inputAmount">
-            <form action="">
+            <form>
                 <select name="" id="material">
                     <option value="coffee">Coffee (gr): </option>
                     <option value="water">Water (ml): </option>
@@ -44,7 +44,7 @@
                     <option value="300"></option>
                 </datalist>
             </form>
-            </div>
+           </div>
             <div id="button">
                 <button type="button" onclick="coffeeRatio()">Calculate</button>
                 <button type="reset">Reset</button>
@@ -52,7 +52,7 @@
             <div id="resultSpace">
                 <span id="result">There is no input</span>
             </div>
-    </div>
+    </form>
 <script src="script.js"></script>      
 </body>
 
