@@ -20,7 +20,7 @@
                 <option value="13">1:13</option>
                 <option value="15">1:15</option>
                 <option value="16">1:16</option>
-                <option value="18">1:18</option>
+                <option value="18" selected>1:18</option>
             </select>
         </div>
     </form>
@@ -30,17 +30,7 @@
                     <option value="coffee">Coffee (gr): </option>
                     <option value="water">Water (ml): </option>
                 </select>
-                <input type="number" id="amount" list="amountdata">
-                <datalist id="amountdata">
-                    <option value="9.7"></option>
-                    <option value="11"></option>
-                    <option value="17"></option>
-                    <option value="18"></option>
-                    <option value="19"></option>
-                    <option value="175"></option>
-                    <option value="200"></option>
-                    <option value="300"></option>
-                </datalist>
+                <input type="number" id="amount">
            </div>
             <div class="button">
                 <button type="button" onclick="coffeeRatio()">Calculate</button>
